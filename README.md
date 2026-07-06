@@ -1,0 +1,36 @@
+# Мой тестовый репозиторий
+## Что я сделал
+1. Установид git специального сайта https://git-scm.com/install/windows
+2. Настроил git
+   ```
+   git config --global user.name "Dima"
+   git config --global user.imail "wsfhskjhf-mail.ru"
+   ```
+3. Создал репозиторий
+   ```
+   git inint
+   ```
+4. Добавил файлы для коммита
+   ```
+   git add main.py
+   ```
+5. Создал коммит с коментарием
+   ```
+   git commit -m "мой первый коммит"
+   ```
+## Как я опубликовал репозиторий
+1. Создал репизиторий в github
+2. Связал локальный репозиторий с облачным
+   ```
+   git remote add origin https://github.com/dimaiksar10-ship-it/git-test.git
+   git branch -M main
+   git push -u origin main
+   ```
+## Полезные команды git
+`git status` - Проверить текущий статус
+
+`git log` - Посмотреть историю коммитов. Добавить `--oneline` для краткого вывода
+
+`git add -A` - Добавить все файлы в текущий коммит
+
+`git commit -m "мой первый коммит"` - Создать коммит
